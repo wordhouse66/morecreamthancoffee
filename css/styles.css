@@ -1,0 +1,113 @@
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  h1 {
+    color: #ff0000;
+  }
+  p {
+    color: #333333;
+  }
+  @media (max-width: 600px) {
+    body {
+      margin: 20px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 601px) {
+    body {
+      margin: 50px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 1200px) {
+    body {
+      margin: 100px;
+    }
+    h1 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #121212;
+      color: #ffffff;
+    }
+    h1 {
+      color: #ff5722;
+    }
+    p {
+      color: #bbbbbb;
+    }
+  }
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: #ffffff;
+      color: #000000;
+    }
+    h1 {
+      color: #ff5722;
+    }
+    p {
+      color: #333333;
+    }
+  }
+  @media (hover: hover) {
+    body:hover {
+      background-color: #f0f0f0;
+    }
+  }
+  @media (hover: none) {
+    body {
+      background-color: #ffffff;
+    }
+  }
+  @media (pointer: fine) {
+    body {
+      cursor: pointer;
+    }
+  }
+  @media (pointer: coarse) {
+    body {
+      cursor: default;
+    }
+  }
+  @media (max-width: 600px) and (prefers-color-scheme: dark) {
+    body {
+      background-color: #1a1a1a;
+    }
+  }
+  @media (max-width: 600px) and (prefers-color-scheme: light) {
+    body {
+      background-color: #f9f9f9;
+    }
+  }
+  @media (min-width: 601px) and (prefers-color-scheme: dark) {
+    body {
+      background-color: #1c1c1c;
+    }
+  }
+  @media (min-width: 601px) and (prefers-color-scheme: light) {
+    body {
+      background-color: #ffffff;
+    }
+  }
+    @media (min-width: 1200px) and (prefers-color-scheme: dark) {
+        body {
+        background-color: #202020;
+        }
+    }
